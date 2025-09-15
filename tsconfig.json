@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./dist",
+
+    // Module system
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "target": "ESNext",
+
+    // Interop + syntax rules
+    "esModuleInterop": true,
+    "verbatimModuleSyntax": true,
+    "isolatedModules": true,
+    "moduleDetection": "force",
+
+    // Type definitions
+    "types": ["node"],
+
+    // Output options
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+
+    // Strictness
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "noUncheckedSideEffectImports": true,
+
+    // Performance
+    "skipLibCheck": true
+  }
+}
